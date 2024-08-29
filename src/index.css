@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  *{
+    @apply m-0 p-0
+  }
+
+  body {
+    @apply bg-[#ffff] text-black
+  }
+
+  
+}
